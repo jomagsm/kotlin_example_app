@@ -15,8 +15,8 @@ class MainFragment : Fragment() {
     private val binding get() = _binding!!
     private var isReverse: Boolean = false
     private var result: Int = 0
-    private val btnPlus = "+"
-    private val btnMinus = "-"
+    private val btnPlus = "+1"
+    private val btnMinus = "-1"
 
     private lateinit var resultFragment: ResultFragment
     private lateinit var fragmentTransaction: FragmentTransaction
